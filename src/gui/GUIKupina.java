@@ -254,6 +254,7 @@ public class GUIKupina extends JFrame {
 						int broj=Integer.parseInt(textFieldID.getText());
 						int gajbe=Integer.parseInt(textFieldGajbe.getText());
 						double bruto=Double.parseDouble(textFieldTezina.getText());
+						System.out.println(bruto);
 						Merenje m= new Merenje();
 						GregorianCalendar vreme= new GregorianCalendar();
 						m.setBrojGajbi(gajbe);

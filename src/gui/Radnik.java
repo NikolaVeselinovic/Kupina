@@ -15,8 +15,8 @@ public class Radnik implements Serializable{
 		this.ime = ime;
 	}
 	public double getNeto() {
-		int brojG=0;
-		int ukupno=0;
+		double brojG=0;
+		double ukupno=0;
 		for(int i=0;i<listaMerenja.size();i++){
 			brojG+=listaMerenja.get(i).getBrojGajbi();
 			ukupno+=listaMerenja.get(i).getBruto();
